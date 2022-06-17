@@ -1,0 +1,68 @@
+.menuBar .logo {
+	display:none!important;
+}
+.menu-item-user li.copyright-show {
+	display:none!important;
+}
+.menu-item-user li.licence {
+	display:none!important;
+}
+.setting-page .setting-menu-left h1 .logo img, .admin-page .admin-menu-left h1 .logo img {
+display:none!important;
+}
+.admin-page .logo{
+	display:none!important;
+}
+.menu-item-user li.app-download {
+	display:none!important;
+}
+.topbar-menu.title{
+	display:none;
+}
+.copyright-content {
+	display: none;
+}
+.show-sidebar{
+	display: none!important;
+}
+.share-view-body .report {
+	display: none;
+}
+.share-page-main .content-box {
+    bottom: 0!important;
+    top: 0!important;
+    width: 100%!important;
+    left: 0!important;
+}
+.setting-page .setting-menu-left h1, .admin-page .admin-menu-left h1 {
+	display:none!important;
+}
+
+.menuBar .logo {
+	display:none!important;
+}
+.menu-item-user li.copyright-show {
+	display:none!important;
+}
+.menu-item-user li.licence {
+	display:none!important;
+}
+.setting-page .setting-menu-left h1 .logo img, .admin-page .admin-menu-left h1 .logo img {
+display:none!important;
+}
+.admin-page .logo{
+	display:none!important;
+}
+.menu-item-user li.app-download {
+	display:none!important;
+}
+.footer-content{
+	display:none!important;
+}
+.admin-menu-left .logo{
+	display:none!important;
+}
+.admin-page .admin-menu-left .logo {
+    display: none!important;
+    visibility: hidden!important;
+}
