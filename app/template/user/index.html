@@ -9,11 +9,11 @@
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="format-detection" content="email=no" />
 
-	<meta name="description" itemprop="description" content="<?php echo LNG('common.copyright.desc');?>" />
-	<meta name="keywords" content="<?php echo LNG('common.copyright.metaKeywords');?>" />
-	<meta name="generator" content="<?php echo LNG('common.copyright.metaName').' '.KOD_VERSION;?>"/>
-	<meta name="author" content="<?php echo LNG('common.copyright.name');?>" />
-	<meta name="copyright" content="<?php echo LNG('common.copyright.name');?>" />
+	<meta name="description" itemprop="description" content="<?php //echo LNG('common.copyright.desc');?>" />
+	<meta name="keywords" content="<?php //echo LNG('common.copyright.metaKeywords');?>" />
+	<meta name="generator" content="<?php //echo LNG('common.copyright.metaName').' '.KOD_VERSION;?>"/>
+	<meta name="author" content="<?php //echo LNG('common.copyright.name');?>" />
+	<meta name="copyright" content="<?php //echo LNG('common.copyright.name');?>" />
 	<title><?php echo LNG('title').LNG('common.copyright.name')." - ".LNG('common.copyright.powerBy');?></title>
 	
 	<link href="<?php echo APP_HOST;?>index.php?user/view/manifest" rel="manifest" />
@@ -26,11 +26,17 @@
 	<meta name="apple-touch-fullscreen" content="yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="default" />
-	<meta name="apple-mobile-web-app-title" content="<?php echo LNG('common.copyright.metaName');?>" />
+	<meta name="apple-mobile-web-app-title" content="<?php //echo LNG('common.copyright.metaName');?>" />
 	<meta name="browsermode" content="application" />
 	<meta name="full-screen" content="yes" />
 	<meta name="x5-page-mode" content="app" />
 	<meta name="x5-fullscreen" content="true" />
+	<meta name="psg" content="YES" />
+	<script> window.YETT_BLACKLIST = [
+	    /static.kodcloud.com/,
+	    ]
+    </script>
+    <script src="/static/yett.min.js"></script>
 	<?php Hook::trigger('templateCommonHeader');?>
 </head>
 
