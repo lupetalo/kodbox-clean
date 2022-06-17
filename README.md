@@ -1,2 +1,2 @@
-# kodbox thast does not load remote JS
+# kodbox that does not load remote JS
 
